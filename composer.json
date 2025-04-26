@@ -1,7 +1,7 @@
 {
   "name": "torbox/sdk",
-  "version": "1.0.1",
   "type": "library",
+  "description": "The official TorBox SDK in PHP",
   "license": "MIT",
   "require": {
     "php": "^8.0",
