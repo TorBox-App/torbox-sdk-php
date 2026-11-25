@@ -3,7 +3,7 @@
 Requires PHP 8.1 or later and Composer.
 
 ```bash
-composer require "torbox/sdk:9.3.1-beta20261125.4"
+composer require "torbox/sdk:9.3.2026112508"
 ```
 
 ## Quick start

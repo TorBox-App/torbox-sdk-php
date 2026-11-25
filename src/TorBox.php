@@ -21,7 +21,7 @@ final class TorBox
         $this->config = (new Configuration())
             ->setHost(rtrim($baseUrl, '/'))
             ->setAccessToken($apiKey)
-            ->setUserAgent('torbox-php/9.3.1-beta20261125.4');
+            ->setUserAgent('torbox-php/9.3.2026112508');
         $this->http = $http ?? new Client(['timeout' => $timeout]);
     }
 
