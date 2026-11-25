@@ -1,0 +1,47 @@
+# GetTorrentListResponseDataInner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** |  | [optional]
+**authId** | **string** |  | [optional]
+**server** | **float** |  | [optional]
+**hash** | **string** |  | [optional]
+**name** | **string** |  | [optional]
+**magnet** | **string** |  | [optional]
+**size** | **int** |  | [optional]
+**active** | **bool** |  | [optional]
+**createdAt** | **string** |  | [optional]
+**updatedAt** | **string** |  | [optional]
+**downloadState** | **string** |  | [optional]
+**seeds** | **int** |  | [optional]
+**peers** | **int** |  | [optional]
+**ratio** | **float** |  | [optional]
+**progress** | **float** |  | [optional]
+**downloadSpeed** | **float** |  | [optional]
+**uploadSpeed** | **float** |  | [optional]
+**eta** | **float** |  | [optional]
+**torrentFile** | **bool** |  | [optional]
+**expiresAt** | **string** |  | [optional]
+**downloadPresent** | **bool** |  | [optional]
+**files** | [**\TorBox\Sdk\Model\GetTorrentListResponseDataInnerFilesInner[]**](GetTorrentListResponseDataInnerFilesInner.md) |  | [optional]
+**downloadPath** | **string** |  | [optional]
+**availability** | **float** |  | [optional]
+**downloadFinished** | **bool** |  | [optional]
+**tracker** | **string** |  | [optional]
+**totalUploaded** | **int** |  | [optional]
+**totalDownloaded** | **int** |  | [optional]
+**cached** | **bool** |  | [optional]
+**owner** | **string** |  | [optional]
+**seedTorrent** | **bool** |  | [optional]
+**allowZipped** | **bool** |  | [optional]
+**longTermSeeding** | **bool** |  | [optional]
+**trackerMessage** | **string** |  | [optional]
+**cachedAt** | **string** |  | [optional]
+**private** | **bool** |  | [optional]
+**alternativeHashes** | **string[]** |  | [optional]
+**tags** | **string[]** |  | [optional]
+**airlocked** | **bool** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
